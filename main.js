@@ -1,3 +1,9 @@
 function myfunction(){
-    alert("username:" + document.getElementById("Username").value );
+    if (document.getElementById("Username").value ==""){
+        alert("Please provide Username");
+        return false;
+    }
+
+        
+    
 }
